@@ -1,5 +1,5 @@
 :root {
-    --myGreen: hsl(144, 100%, 73%);
+    --myGreen: rgb(0, 255, 171);
     --myBlack: #282828;
   }
 
@@ -9,6 +9,15 @@
 
 p {
     margin: 0px;
+}
+
+a {
+    text-decoration:none;
+    color: var(--myBlack);
+}
+
+a:hover {
+    color: var(--myGreen);
 }
 
 body {
@@ -62,8 +71,6 @@ nav a:hover {
     color:var(--myGreen);
 }
 
-
-
 #welcome {
     position:absolute;
     padding-top: 300px;
@@ -76,12 +83,6 @@ h2 {
     font-size: 60px;
     margin: 0px;
 }
-
-/*.welcome p {
-    font-family:'DM Serif Display', Times, serif;
-    font-size: 20px;
-    margin-top: -10px;
-}*/
 
 .container {
     height: 700px;
@@ -100,7 +101,10 @@ h2 {
     position: relative;
     margin: auto;
     top: -175px;
-    background-color: rgb(255, 190, 190);
+    background-image: url(../W2_Portfolio_Challenge/assets/MyProfilePic.jpg);
+    background-size: cover;
+    border: 5px solid;
+    border-color: var(--myGreen);
     border-radius: 300px;
     font-family:'Times New Roman', Times, serif;
 }
@@ -116,15 +120,107 @@ h2 {
 #work {
     background-color: rgb(210, 210, 210);
     position: relative;
-    height: 1000px;
+    height: 85px;
     padding-top: 100px;
     top: 25px;
     padding-left: 80px;
     font-weight: lighter;
 }
 
+.grid_container {
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(210, 210, 210);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 300px 300px;
+    grid-template-areas:
+        'project1 project1'
+        'project2 project3'
+        'project4 project5'
+    ;
+}
 
+.projectHeading {
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    background-color: rgb(136, 136, 136, 0.5);
+    color: white;
+    font-weight: lighter;
+}
 
+.projectHeading h3 {
+    font-weight: bolder;
+    margin: 0;
+}
+
+#project1 {
+    grid-area: project1;
+    background-image: url(../W2_Portfolio_Challenge/assets/02-hero-bg.jpg);
+}
+
+#project2 {
+    grid-area: project2;
+    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-1.jpg);
+}
+
+#project3 {
+    grid-area: project3;
+    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-2.jpg);
+}
+
+#project4 {
+    grid-area: project4;
+    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-3.jpg);
+}
+
+#project5 {
+    grid-area: project5;
+    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-4.jpg);
+}
+
+.grid_item {
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+}
+
+.grid_item:hover {
+    opacity: 0.5;
+    filter:saturate(0)
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width: 50%;
+    padding-left: 80px;
+    font-weight: lighter;
+}
+
+.contactLink {
+    padding-left: 80px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contactLink .contactBold {
+    font-weight:bolder;
+    font-size: 30px;
+}
+
+.spacer {
+    height: 100px;
+}
 
 @media screen and (max-width: 1100px) {
     nav h1 {
@@ -150,7 +246,6 @@ h2 {
     }
 
     .container {
-
         width: 100%;
         margin-bottom: 25px;
         background-image: url(../W2_Portfolio_Challenge/assets/Workspace.jpg);
@@ -158,7 +253,4 @@ h2 {
         background-size: 1100px;
         background-position: 0px;
     }
-
-
-
 }
