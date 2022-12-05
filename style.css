@@ -1,4 +1,4 @@
-:root {
+:root { /* below here defines global setting across the page like font and link styles */
     --myGreen: rgb(0, 255, 171);
     --myBlack: #282828;
   }
@@ -24,7 +24,7 @@ body {
     margin: 0;
 }
     
-nav {
+nav { /* below here defines the top naviagtion bar settings */
     display: flex;
     justify-content: space-between;
     z-index:100;
@@ -61,7 +61,7 @@ nav ul li {
     margin-right:20px;
 }
 
-.sectionTitle h2 {
+.sectionTitle h2 { /* below here defines the settings for the main title and text for each section */
     font-family:'DM Serif Display', Times, serif;
     font-size: 60px;
     margin: 0px;   
@@ -78,7 +78,7 @@ nav ul li {
     font-size: 18px;
 }
 
-#hero {
+#hero { /* this defines the main 'hero' image and box you see at the top of the page */
     display:flex;
     background-image: url(../W2_Portfolio_Challenge/assets/shapelined-_JBKdviweXI-unsplash.jpg);
     background-attachment: fixed;
@@ -92,7 +92,7 @@ nav ul li {
     margin-left: 80px;
 }
 
-#profilePicture {
+#profilePicture { /* these are the settings for the circular profile picture */
     z-index: 50;
     height: 300px;
     width: 300px;
@@ -107,12 +107,12 @@ nav ul li {
     font-family:'Times New Roman', Times, serif;
 }
 
-#container {
+#container { /* this container lifts the rest of the page to account for the profile picture being 155px relative higher */
     position: relative;
     top:-155px;
 }
 
-#about {
+#about { /* here na dbelow are the settings for the about and work titles */
     display:flex;
     margin-left:80px;
     width:70%;
@@ -125,7 +125,7 @@ nav ul li {
     color: white;
 }
 
-.grid_container {
+.grid_container { /* these are the settings for the portfolio grid and below are the project headings and text */
     display: grid;
     padding-top: 30px;
     padding-bottom: 150px;
@@ -198,7 +198,7 @@ nav ul li {
     filter:saturate(0);
 }
 
-#contact {
+#contact { /* settings for the contact area and links */
     display:flex;
     flex-direction: row;
     margin: 80px 0px 0px 80px;
@@ -237,7 +237,19 @@ nav ul li {
     margin-left:80px;
 }
 
-@media screen and (max-width: 1100px) {
+#footer { /* these are the settings for the footer */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+    bottom: 0;
+    width:100%;
+    margin:auto;
+    font-size: 12px;
+    color:white;
+    background-color:var(--myBlack);
+}
+
+@media screen and (max-width: 1100px) { /* these are the settings for when the viewport goes to a medium size */
 
     #title {
         margin-left: 30px;
@@ -297,7 +309,7 @@ nav ul li {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /* these are the settings for when the viewport is a much smaller size */
 
     nav {
         flex-direction: column;
