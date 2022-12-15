@@ -80,7 +80,7 @@ nav ul li {
 
 #hero { /* this defines the main 'hero' image and box you see at the top of the page */
     display:flex;
-    background-image: url(../W2_Portfolio_Challenge/assets/shapelined-_JBKdviweXI-unsplash.jpg);
+    background-image: url(../images/shapelined-_JBKdviweXI-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     align-items: center;
@@ -99,7 +99,7 @@ nav ul li {
     position: relative;
     margin: auto;
     top: -155px;
-    background-image: url(../W2_Portfolio_Challenge/assets/MyProfilePic.jpg);
+    background-image: url(../images/MyProfilePic.jpg);
     background-size: cover;
     border: 5px solid;
     border-color: var(--myGreen);
@@ -158,27 +158,27 @@ nav ul li {
 
 #project1 {
     grid-area: project1;
-    background-image: url(../W2_Portfolio_Challenge/assets/02-hero-bg.jpg);
+    background-image: url(../images/Horiseon.jpg);
 }
 
 #project2 {
     grid-area: project2;
-    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-1.jpg);
+    background-image: url(../images/02-portfolio-1.jpg);
 }
 
 #project3 {
     grid-area: project3;
-    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-2.jpg);
+    background-image: url(../images/02-portfolio-2.jpg);
 }
 
 #project4 {
     grid-area: project4;
-    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-3.jpg);
+    background-image: url(../images/02-portfolio-3.jpg);
 }
 
 #project5 {
     grid-area: project5;
-    background-image: url(../W2_Portfolio_Challenge/assets/02-portfolio-4.jpg);
+    background-image: url(../images/02-portfolio-4.jpg);
 }
 
 .grid_item {
@@ -211,7 +211,7 @@ nav ul li {
 }
 
 #emailIcon {
-    background-image: url(../W2_Portfolio_Challenge/assets/EmailIcon.png);
+    background-image: url(../images/EmailIcon.png);
     background-size: cover;
     height:30px;
     width:30px;
@@ -224,7 +224,7 @@ nav ul li {
 }
 
 #githubIcon {
-    background-image: url(../W2_Portfolio_Challenge/assets/Github.png);
+    background-image: url(../images/Github.png);
     background-size: cover;
     height:30px;
     width:30px;
