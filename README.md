@@ -3,7 +3,7 @@
 ## Description
 The aim of this project was to build a portfolio page which I can add to as the course progresses.
 
-The webpage needed to show my name, a recent photo or avatar and link sections about me, my work and how to contact me.
+The webpage needed to show my name, a recent photo or avatar and the link sections about me, my work and how to contact me.
 
 The webpage needed to responsive when changing various screen sizes.
 
