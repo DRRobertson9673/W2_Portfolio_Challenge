@@ -3,7 +3,7 @@
 ## Description
 The aim of this project was to build a portfolio page which I can add to as the course progresses.
 
-The webpage needed to show my name, a recent photo or avatar and link sections about me, my work and how to contact me.
+The webpage needed to show my name, a recent photo or avatar and the link sections about me, my work and how to contact me.
 
 The webpage needed to responsive when changing various screen sizes.
 
@@ -17,11 +17,11 @@ The website can be accessed via an internet browser and you can navigate to diff
 
 Link: https://drrobertson9673.github.io/W2_Portfolio_Challenge/
 
-![screenshot of the website large screen](assets/MyPortfolio_Large.png)
+![screenshot of the website large screen](images/MyPortfolio_Large.png)
 
-![screenshot of the website medium screen](assets/MyPortfolio_Medium.png)
+![screenshot of the website medium screen](images/MyPortfolio_Medium.png)
 
-![screenshot of the website smell screen](assets/MyPortfolio_Small.png)
+![screenshot of the website smell screen](images/MyPortfolio_Small.png)
 
 ## Credits
 
